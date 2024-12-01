@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import instagram from './instagram.svg';
-import twitter from './twitter.svg';
+import twitter from './twitter-alt.svg';
 import userprofile from './user-profile.svg';
 import credit from './wallet-cards.svg';
 import feature from './feature-image.png';
@@ -14,6 +14,10 @@ import icon2 from './icon-2.svg';
 import icon3 from './icon-3.svg';
 import featureone from './featureone.jpeg';
 import { BrainCircuit, Sparkles, ImageDown, MessageSquarePlus, Palette } from 'lucide-react';
+import profileone from './profile-1.jpg';
+import   profiletwo from './profile-2.jpg';
+ import  profilethree from './profile-3.jpg';
+
 
 export const assets = {
    logo,
@@ -30,7 +34,10 @@ export const assets = {
     icon1,
     icon2,
     icon3,
-    featureone
+    featureone,
+    profileone,
+    profiletwo,
+    profilethree
 };
 
 export const StepsData = [{
@@ -66,4 +73,27 @@ export const plansData = [{
   price: 30,
   features: ['1000 image credits', 'Advanced customer support'],
   credits: 300
+}]
+
+
+export const TestimonialData = [{
+  name: 'Victoria Smith',
+  review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quidem.',
+   role: 'Web Developer',
+  star: 5,
+  image: profileone
+},
+{
+  name: 'John Doe',
+  review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quidem.',
+   role: 'Designer',
+  star: 5,
+  image: profiletwo
+},
+{
+  name: 'Luis Johnson',
+  role: 'UX Designer',
+  star: 5,
+  review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quidem.',
+  image: profilethree
 }]

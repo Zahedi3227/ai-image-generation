@@ -7,3 +7,16 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
+
+.placeholder-color::placeholder {
+  color: #e0e0e0;
+  font-weight: 300;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

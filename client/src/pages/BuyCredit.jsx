@@ -2,7 +2,7 @@ import React from 'react'
 
 const BuyCredit = () => {
   return (
-    <div>
+    <div className='pt-32'>
       <h1>Buy Credit</h1>
     </div>
   )
